@@ -22,6 +22,7 @@ source("./R/functions.R")
 # load required R packages (download if they do not exist)
 loadPackage("data.table")                                        
 loadPackage("ggplot2")
+loadPackage("rgdal")
 
 # data.R - sources/download code for the datasets available online. Some large files so there are not in the repo
 source("./R/data.R")
