@@ -23,6 +23,11 @@ source("./R/functions.R")
 loadPackage("data.table")                                        
 loadPackage("ggplot2")
 loadPackage("rgdal")
+loadPackage("maps")
+loadPackage("RColorBrewer")
+loadPackage("maptools")
+loadPackage("reshape")
+loadPackage("rgeos")
 
 # data.R - sources/download code for the datasets available online. Some large files so there are not in the repo
 source("./R/data.R")
